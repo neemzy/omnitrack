@@ -1,0 +1,447 @@
+{
+  "characters": [
+    {
+      "name": "Cloud",
+      "portrait": "https://jegged.com/img/Games/Final-Fantasy-VII/Portraits/Cloud.png",
+      "limitBreaks": [
+        {
+          "name": "Braver",
+          "criterion": {
+            "type": "initial"
+          }
+        },
+        {
+          "name": "Cross-slash",
+          "criterion": {
+            "type": "use",
+            "name": "Braver",
+            "count": 8
+          }
+        },
+        {
+          "name": "Blade Beam",
+          "criterion": {
+            "type": "kill",
+            "count": 120
+          }
+        },
+        {
+          "name": "Climhazzard",
+          "criterion": {
+            "type": "use",
+            "name": "Blade Beam",
+            "count": 7
+          }
+        },
+        {
+          "name": "Meteorain",
+          "criterion": {
+            "type": "kill",
+            "count": 320
+          }
+        },
+        {
+          "name": "Finishing Touch",
+          "criterion": {
+            "type": "use",
+            "name": "Meteorain",
+            "count": 6
+          }
+        },
+        {
+          "name": "Omnislash",
+          "criterion": {
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Barret",
+      "portrait": "https://jegged.com/img/Games/Final-Fantasy-VII/Portraits/Barret.png",
+      "limitBreaks": [
+        {
+          "name": "Big Shot",
+          "criterion": {
+            "type": "initial"
+          }
+        },
+        {
+          "name": "Mindblow",
+          "criterion": {
+            "type": "use",
+            "name": "Big Shot",
+            "count": 9
+          }
+        },
+        {
+          "name": "Grenade Bomb",
+          "criterion": {
+            "type": "kill",
+            "count": 80
+          }
+        },
+        {
+          "name": "Hammerblow",
+          "criterion": {
+            "type": "use",
+            "name": "Grenade Bomb",
+            "count": 8
+          }
+        },
+        {
+          "name": "Satellite Beam",
+          "criterion": {
+            "type": "kill",
+            "count": 160
+          }
+        },
+        {
+          "name": "Angermax",
+          "criterion": {
+            "type": "use",
+            "name": "Satellite Beam",
+            "count": 6
+          }
+        },
+        {
+          "name": "Catastrophe",
+          "criterion": {
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tifa",
+      "portrait": "https://jegged.com/img/Games/Final-Fantasy-VII/Portraits/Tifa.png",
+      "limitBreaks": [
+        {
+          "name": "Beat Rush",
+          "criterion": {
+            "type": "initial"
+          }
+        },
+        {
+          "name": "Somersault",
+          "criterion": {
+            "type": "use",
+            "name": "Beat Rush",
+            "count": 9
+          }
+        },
+        {
+          "name": "Waterkick",
+          "criterion": {
+            "type": "kill",
+            "count": 96
+          }
+        },
+        {
+          "name": "Meteodrive",
+          "criterion": {
+            "type": "use",
+            "name": "Waterkick",
+            "count": 7
+          }
+        },
+        {
+          "name": "Dolphin Blow",
+          "criterion": {
+            "type": "kill",
+            "count": 192
+          }
+        },
+        {
+          "name": "Meteor Strike",
+          "criterion": {
+            "type": "use",
+            "name": "Dolphin Blow",
+            "count": 6
+          }
+        },
+        {
+          "name": "Final Heaven",
+          "criterion": {
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Aerith",
+      "portrait": "https://jegged.com/img/Games/Final-Fantasy-VII/Portraits/Aeris.png",
+      "limitBreaks": [
+        {
+          "name": "Healing Wind",
+          "criterion": {
+            "type": "initial"
+          }
+        },
+        {
+          "name": "Seal Evil",
+          "criterion": {
+            "type": "use",
+            "name": "Healing Wind",
+            "count": 8
+          }
+        },
+        {
+          "name": "Breath of the Earth",
+          "criterion": {
+            "type": "kill",
+            "count": 80
+          }
+        },
+        {
+          "name": "Fury Brand",
+          "criterion": {
+            "type": "use",
+            "name": "Breath of the Earth",
+            "count": 6
+          }
+        },
+        {
+          "name": "Planet Protector",
+          "criterion": {
+            "type": "kill",
+            "count": 160
+          }
+        },
+        {
+          "name": "Pulse of Life",
+          "criterion": {
+            "type": "use",
+            "name": "Planet Protector",
+            "count": 5
+          }
+        },
+        {
+          "name": "Great Gospel",
+          "criterion": {
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nanaki",
+      "portrait": "https://jegged.com/img/Games/Final-Fantasy-VII/Portraits/Red-XIII.png",
+      "limitBreaks": [
+        {
+          "name": "Sled Fang",
+          "criterion": {
+            "type": "initial"
+          }
+        },
+        {
+          "name": "Lunatic High",
+          "criterion": {
+            "type": "use",
+            "name": "Sled Fang",
+            "count": 8
+          }
+        },
+        {
+          "name": "Blood Fang",
+          "criterion": {
+            "type": "kill",
+            "count": 72
+          }
+        },
+        {
+          "name": "Stardust Ray",
+          "criterion": {
+            "type": "use",
+            "name": "Blood Fang",
+            "count": 7
+          }
+        },
+        {
+          "name": "Howling Moon",
+          "criterion": {
+            "type": "kill",
+            "count": 144
+          }
+        },
+        {
+          "name": "Earth Rave",
+          "criterion": {
+            "type": "use",
+            "name": "Howling Moon",
+            "count": 6
+          }
+        },
+        {
+          "name": "Cosmo Memory",
+          "criterion": {
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cait Sith",
+      "portrait": "https://jegged.com/img/Games/Final-Fantasy-VII/Portraits/Cait-Sith.png",
+      "limitBreaks": [
+        {
+          "name": "Dice",
+          "criterion": {
+            "type": "initial"
+          }
+        },
+        {
+          "name": "Slots",
+          "criterion": {
+            "type": "kill",
+            "count": 40
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cid",
+      "portrait": "https://jegged.com/img/Games/Final-Fantasy-VII/Portraits/Cid.png",
+      "limitBreaks": [
+        {
+          "name": "Boost Jump",
+          "criterion": {
+            "type": "initial"
+          }
+        },
+        {
+          "name": "Dynamite",
+          "criterion": {
+            "type": "use",
+            "name": "Boost Jump",
+            "count": 7
+          }
+        },
+        {
+          "name": "Hyper Jump",
+          "criterion": {
+            "type": "kill",
+            "count": 60
+          }
+        },
+        {
+          "name": "Dragon",
+          "criterion": {
+            "type": "use",
+            "name": "Hyper Jump",
+            "count": 6
+          }
+        },
+        {
+          "name": "Dragon Dive",
+          "criterion": {
+            "type": "kill",
+            "count": 136
+          }
+        },
+        {
+          "name": "Big Brawl",
+          "criterion": {
+            "type": "use",
+            "name": "Dragon Dive",
+            "count": 5
+          }
+        },
+        {
+          "name": "Highwind",
+          "criterion": {
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yuffie",
+      "portrait": "https://jegged.com/img/Games/Final-Fantasy-VII/Portraits/Yuffie.png",
+      "limitBreaks": [
+        {
+          "name": "Greased Lightning",
+          "criterion": {
+            "type": "initial"
+          }
+        },
+        {
+          "name": "Clear Tranquil",
+          "criterion": {
+            "type": "use",
+            "name": "Greased Lightning",
+            "count": 8
+          }
+        },
+        {
+          "name": "Landscaper",
+          "criterion": {
+            "type": "kill",
+            "count": 64
+          }
+        },
+        {
+          "name": "Bloodfest",
+          "criterion": {
+            "type": "use",
+            "name": "Landscaper",
+            "count": 7
+          }
+        },
+        {
+          "name": "Gauntlet",
+          "criterion": {
+            "type": "kill",
+            "count": 128
+          }
+        },
+        {
+          "name": "Doom of the Living",
+          "criterion": {
+            "type": "use",
+            "name": "Gauntlet",
+            "count": 6
+          }
+        },
+        {
+          "name": "All Creation",
+          "criterion": {
+            "type": "final"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vincent",
+      "portrait": "https://jegged.com/img/Games/Final-Fantasy-VII/Portraits/Vincent.png",
+      "limitBreaks": [
+        {
+          "name": "Galian Beast",
+          "criterion": {
+            "type": "initial"
+          }
+        },
+        {
+          "name": "Death Gigas",
+          "criterion": {
+            "type": "kill",
+            "count": 40
+          }
+        },
+        {
+          "name": "Hellmasker",
+          "criterion": {
+            "type": "kill",
+            "count": 96
+          }
+        },
+        {
+          "name": "Chaos",
+          "criterion": {
+            "type": "final"
+          }
+        }
+      ]
+    }
+  ]
+}
